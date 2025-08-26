@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: white;
+}
+
+* ::selection {
+    background: white;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    height: fit-content;
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+.para {
+    height: fit-content;
+    width: 90%;
+    margin-top: 60px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 15px;
+    height: 95%;
+    width: 95%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.container img {
+    height: 95%;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.data {
+    height: 95%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.data p {
+    height: fit-content;
+    width: 80%;
+    margin-top: 35px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.page3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3 table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.page3 th, .page3 td {
+    border: 1px solid white;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.page3 th {
+    background-color: white;
+    font-weight: bold;
+    color: #000;
+}
+
+.page4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.page4 img {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.page4 table {
+    border-collapse: collapse;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.page4 td {
+    border: 5px solid white;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.page4 h1{
+    font-size: 70px;
+    font-weight: bold;
+}
